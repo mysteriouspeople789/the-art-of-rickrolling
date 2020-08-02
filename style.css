@@ -1,0 +1,25 @@
+.head {
+	position: relative;
+}
+
+#head-pic {
+ 	height: 100vh;
+  	width: 100vw;
+  	object-fit: cover;
+}
+
+#head-text {
+	position: absolute;
+	left: 70px;
+	bottom: 50px;
+	z-index: 1;
+	font-family: serif;
+	font-size: 70px;
+	color: white;
+	background-color: black;
+	opacity: 0.75;
+}
+
+#text {
+	font-size: 50px;
+}
