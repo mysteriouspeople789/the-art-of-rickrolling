@@ -4,14 +4,26 @@
 
 #head-pic {
  	height: 100vh;
-  	width: 100vw;
-  	object-fit: cover;
+  	width: 100%;
+  	object-fit: fill;
+}
+
+.content {
+	margin: 10px;
+}
+
+#player {
+	height: 0px; width: 0px;
+}
+
+.break {
+	/*height: 1000px;*/
 }
 
 #head-text {
 	position: absolute;
-	left: 70px;
-	bottom: 50px;
+	left: 10%;
+	bottom: 20%;
 	z-index: 1;
 	font-family: serif;
 	font-size: 70px;
@@ -22,4 +34,15 @@
 
 #text {
 	font-size: 50px;
+}
+
+a:visited {
+	color: #5555ff;
+}
+
+body {
+	background-color: #000;
+	color: white;
+	margin-top: 0;
+	overflow-x: hidden;
 }
