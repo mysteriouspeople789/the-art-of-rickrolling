@@ -23,10 +23,10 @@
 #head-text {
 	position: absolute;
 	left: 10%;
-	bottom: 20%;
+	bottom: 15%;
 	z-index: 1;
 	font-family: serif;
-	font-size: 70px;
+	font-size: 50px;
 	color: white;
 	background-color: black;
 	opacity: 0.75;
