@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
+
 .head {
 	position: relative;
 }
@@ -41,8 +43,16 @@ a:visited {
 }
 
 body {
-	background-color: #000;
+	background-color: #202020;
 	color: white;
 	margin-top: 0;
 	overflow-x: hidden;
+}
+
+body h2 {
+	font-family: "Proza Libre", sans-serif;
+}
+
+body p, body ol, body ul {
+	font-family: "Arial";
 }
